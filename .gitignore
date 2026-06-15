@@ -24,6 +24,8 @@ frontend/.env.production
 !.env.example
 !backend/.env.example
 !frontend/.env.example
+backend/static/frontend/
+backend/staticfiles/
 
 # Node / React
 node_modules/
