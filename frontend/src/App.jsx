@@ -38,7 +38,7 @@ import api from "./api/axios";
 import ScholarSearchPanel from "./components/ScholarSearchPanel";
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "/api";
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api";
 
 function App() {
   const [themeMode, setThemeMode] = useState(
