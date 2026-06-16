@@ -44,6 +44,6 @@ COPY --from=frontend-builder /app/frontend/dist/ static/frontend/
 
 RUN python manage.py collectstatic --noinput
 
-EXPOSE 8000
+EXPOSE 10000
 
-CMD python manage.py migrate && gunicorn scholarmind_backend.wsgi:application --bind 0.0.0.0:$PORT --timeout 300
+CMD ["sh", "-c", "python manage.py migrate && echo Starting Gunicorn on port ${PORT:-10000} && exec gunicorn scholarmind_backend.wsgi:application --bind 0.0.0.0:${PORT:-10000} --workers 1 --timeout 300 --access-logfile - --error-logfile -"]
