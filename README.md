@@ -441,9 +441,9 @@ ScholarMind is successfully deployed with:
 
 ## Author
 
-**Shahmul Islam**
+**Md. Shahmul Islam**
 
-GitHub: https://github.com/Shahmul1230
+
 
 ---
 
