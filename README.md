@@ -9,7 +9,6 @@ The project is built as a production-ready portfolio application using **React**
 ## Live Demo
 
 * **Frontend:** https://scholarmind-zeta.vercel.app
-* **Backend API:** https://appi.pixelstack.cloud/api
 
 ---
 
